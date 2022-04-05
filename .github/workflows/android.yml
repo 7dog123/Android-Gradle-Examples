@@ -21,7 +21,7 @@ jobs:
 
     - name: android sdk 21
       run: |
-       cd /usr/local/lib/android/sdk/tools/bin
+       cd /usr/local/lib/android/sdk/cmdline-tools/latest/bin
        sdkmanager "platforms;android-21" "build-tools;21.1.2" 
 
     - name: build Gradle Build Configs
