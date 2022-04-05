@@ -23,49 +23,49 @@ jobs:
     - name: build Gradle Build Configs
       run: |
        cd 'Gradle Build Configs'/app
-       chmod +x gradlew
+       chmod +x ../gradlew
        ../gradlew assembleRelease
 
     - name: build Gradle Build Variants
       run: |
        cd 'Gradle Build Variants'/app
-       chmod +x gradlew
+       chmod +x ../gradlew
        ../gradlew assembleRelease
 
     - name: build Gradle Eclipse Compatible
       run: |
        cd 'Gradle Eclipse Compatible'
-       chmod +x gradlew
+       chmod +x ../gradlew
        ./gradlew assembleRelease
 
     - name: build Gradle Flavor Dimensions
       run: |
        cd 'Gradle Flavor Dimensions'/app
-       chmod +x gradlew
+       chmod +x ..?gradlew
        ../gradlew assembleRelease
 
     - name: build Gradle Hello World
       run: |
        cd 'Gradle Hello World'/app
-       chmod +x gradlew
+       chmod +x ../gradlew
        ../gradlew assembleRelease
 
     - name: build Gradle Library Projects
       run: |
        cd 'Gradle Library Projects'/app
-       chmod +x gradlew
+       chmod +x ...gradlew
        ../gradlew assembleRelease
 
     - name: build Gradle Unit Test/GradleUnitTest
       run: |
        cd 'Gradle Unit Test'/GradleUnitTest/app
-       chmod +x gradlew
+       chmod +x ../gradlew
        ../gradlew assembleRelease
 
     - name: build Gradle Unit Test/GradleUnitTest2
       run: |
        cd 'Gradle Unit Test'/GradleUnitTest/app
-       chmod +x gradlew
+       chmod +x ../gradlew
        ../gradlew assembleRelease
 
     - name: look in dir's
